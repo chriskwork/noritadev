@@ -1,13 +1,12 @@
+@charset "UTF-8";
 /*
-Theme Name: Spain Dev Blog
-Description: 스페인에서 개발 공부하는 블로그
-Author: [당신 이름]
+Theme Name: NoritaDev
+Description: 스페인에서 개발자 도전하기
+Author: Norita
 Version: 1.0
 */
-
-/* 기본 스타일은 나중에 추가 */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
