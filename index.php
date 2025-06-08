@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php wp_head(); ?>
-</head>
-<body <?php body_class(); ?>>
+<?php get_header(); ?>
 
-<!-- Navigation -->
-<nav class="main-nav">
-    <div class="nav-container">
-        <div class="logo">NoritaDev</div>
-        <ul class="nav-menu">
-            <li><a href="<?php echo home_url(); ?>">Home</a></li>
-            <li><a href="/about">About</a></li>
-        </ul>
-    </div>
-</nav>
+
 
 <div class="main-wrapper">
     <div class="content-area">
@@ -129,10 +113,5 @@
     </aside>
 </div>
 
-<footer class="main-footer">
-    <p>&copy; <?php echo date('Y'); ?> NoritaDev</p>
-</footer>
 
-<?php wp_footer(); ?>
-</body>
-</html>
+<?php get_footer(); ?>

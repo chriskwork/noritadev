@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: $lang-korean;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.main-wrapper {
+  max-width: $large;
+  margin: 0 auto;
+  
+}

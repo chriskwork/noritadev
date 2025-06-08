@@ -5,8 +5,7 @@ Author: Norita
 Version: 1.0
 */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// @use "base/variables" as *;
+@use "base/reset";
+@use "layout/nav";
+@use "layout/general";
