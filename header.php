@@ -13,7 +13,7 @@
     <title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
     <meta name="description" content="스페인에 사는 40대 남자의 새로운 인생 도전기">
     <meta name="keywords" content="스페인, 개발, 도전">
-    <meta name="author" content="NoritaDev">
+    <meta name="author" content="nonuDev">
 
     <!-- Open Graph (Social Media) -->
     <meta property="og:title" content="<?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?>">
@@ -40,7 +40,7 @@
 <!-- Navigation -->
 <nav class="main-nav main-wrapper">
     <div class="nav-container">
-        <div class="logo">NoritaDev</div>
+        <div class="logo">nonuDev</div>
         <ul class="nav-menu">
             <li><a href="<?php echo home_url(); ?>">Home</a></li>
             <li><a href="/about">About</a></li>
