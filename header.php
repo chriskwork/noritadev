@@ -40,7 +40,7 @@
 <!-- Navigation -->
 <nav class="main-nav main-wrapper">
     <div class="nav-container">
-        <div class="logo">nonuDev</div>
+        <div class="logo">GaoriWorks</div>
         <ul class="nav-menu">
             <li><a href="<?php echo home_url(); ?>">Home</a></li>
             <li><a href="/about">About</a></li>
